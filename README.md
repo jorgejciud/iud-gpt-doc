@@ -1,1 +1,0 @@
-# iud-gpt-doc
