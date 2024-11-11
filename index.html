@@ -76,13 +76,135 @@
         <!-- Sección 1 -->
         <div id="introduccion" class="mt-5">
             <h2>Introducción</h2>
-            <p>Contenido de la Introducción...</p>
+            <p>El carácter de los programas de pregrado y posgrado en la Institución Universitaria Digital de Antioquia, son en su mayoría, virtuales. Si nos referimos al programa de Tecnología en Desarrollo de Software, se imparte de manera virtual en un porcentaje casi total. Un curso puede tener varios grupos académicos y en cada grupo, pueden haber matriculados en promedio unos treinta (30) estudiantes, a un (1) docente le pueden corresponder uno (1), dos (2) o tres (3) grupos. Los estudiantes muchas veces quieren resolver dudas puntuales no solo de las temáticas académicas de contenidos del curso, sino dudas del curso en general y las realizan por distintos medios como: el chat de la plataforma LMS (Learning Management System), o el correo electrónico institucional o WhatsApp, cuando el docente lo ofrece a sus estudiantes. A algunos estudiantes les urge tener respuesta inmediata a sus dudas y por eso, pueden hasta evitar escribir por estos medios y esperar al día de los encuentros sincrónicos, que por lo regular son semanales, como algunos no pueden asistir, simplemente desisten en hacer sus consultas y se posponen y acumulan las inquietudes, desencadenando muchas veces la desmotivación e incluso la deserción del curso en última instancia [1]. 
+
+IUD GPT, nace como idea, para el apoyo y soporte, no solo a estudiantes del programa de Tecnología en Desarrollo de Software de la Institución Universitaria Digital de Antioquia, sino, para los docentes; en lo que se puede flexibilizar la forma de contestar a dudas de tipo académico de manera virtual y este tiempo ser invertido en otras actividades como calificaciones atendidas para cantidad considerable de estudiantes y otras gestiones que requieren también cuidado. 
+
+Por su parte, el estudiante, podrá tener respuesta instantánea, en tiempo real, sobre sus incertidumbres de tipo académico o del curso en general, sin esperar el tiempo máximo de respuesta reglamentado como norma por parte del docente. Ya que es una herramienta de apoyo, el estudiante puede preferir también preguntar, de igual forma, por los otros medios de comunicación anteriormente mencionados, pero con IUD GPT, se espera minimizar estas consultas.
+
+La ONU, en su agenda 2023, enumera 17 objetivos de desarrollo sostenible (ODS), con los que pretende hacer efectivos los derechos humanos de todos y conseguir la igualdad de género y el empoderamiento de todas las mujeres y niñas. Están integrados e indivisibles y equilibran las tres dimensiones del desarrollo sostenible: económico, social y ambiental. 
+
+Como el objetivo de este proyecto de investigación y desarrollo (I+D) es la implementación de un asistente virtual, tipo chat, en el campus digital, el cual es un Sistema Gestor de Aprendizaje (LMS), de la Institución Universitaria Digital de Antioquia para los cursos del programa de pregrado de Tecnología en Desarrollo de Software, que usa Inteligencia Artificial, se debe ver como el presente trabajo se relaciona con los ODS. Por tal razón, se debe considerar que este proyecto apoya dos (2) de los objetivos globales de la ONU, entre otros:
+
+	Objetivo 4: “Educación de calidad”. Mejorar la calidad de educación en la Institución Universitaria, mediada con últimos avances tecnológicos. Una educación que llega a los rincones del departamento de Antioquia, Colombia y el mundo [2]. 
+
+Objetivo 13: “Acción por el clima”. Los estudiantes y docentes de la Institución Universitaria, mediante su modalidad de estudio, evitan desplazamientos en vehículos en un gran porcentaje, lo que ayuda y contribuye con el medio ambiente [2].
+
+A continuación, se presentan conceptualizaciones relacionadas relevantes del proyecto, para aclarar en cierta medida su tratamiento. 
+
+Inteligencia Artificial Generativa: es un tipo de IA que puede crear ideas y contenidos nuevos, como conversaciones, historias, imágenes, videos y música. Las tecnologías de IA intentan imitar la inteligencia humana en tareas de computación no tradicionales, como el reconocimiento de imágenes, el procesamiento de lenguaje natural (NLP) y la traducción. La IA generativa es el siguiente paso en la inteligencia artificial [3].
+
+IUD GPT: A partir de las tecnologías de GenAI, se crea IUD GPT, que será un asistente virtual con interfaz gráfica de Chat, para responder preguntas en tiempo real sobre un curso, ya sea a nivel académico, o del curso en general, incluso suministrando fragmentos de código en distintos lenguajes de programación. 
+
+Plugins: Complementos que añaden funcionalidades extra o mejoras a los programas. Es decir, son mini programas que suman alguna característica que no venía por defecto en el programa original. Funcionan como añadidos, pero no por sí mismos [4]. 
+
+LMS (Learning Management System): sistema de gestión del aprendizaje que, a través de un programa informático, permite que organices, crees y diseñes una estrategia de formación online y que proporciones material didáctico en línea a tus alumnos. Pueden ser de código abierto o plataformas bajo licencia que ofrecen un servicio a cambio de una contratación [5].
+
+Canvas: Es un LMS utilizado en entornos educativos y empresariales para administrar y facilitar la entrega de contenido educativo en línea. Fue desarrollado por Instructure y se ha convertido en una plataforma popular para instituciones educativas, desde escuelas primarias hasta universidades, así como para empresas que ofrecen capacitación en línea [6]. Ofrece una serie de características y herramientas que permiten a los educadores y administradores de cursos: 
+
+Crear y administrar cursos en línea: Los instructores pueden crear cursos en línea, cargar contenido multimedia, asignar tareas, programar exámenes y administrar la participación de los estudiantes. 
+
+Comunicación y colaboración: ofrece herramientas para la comunicación en tiempo real, foros de discusión, mensajes privados y colaboración en línea, lo que facilita la interacción entre estudiantes y profesores. 
+
+- Seguimiento y evaluación. 
+
+- Personalización: Los cursos y el entorno de Canvas se pueden personalizar según las necesidades específicas de cada institución o empresa. 
+
+- Acceso desde móviles: compatible con dispositivos móviles, lo que permite a los estudiantes acceder a su contenido y participar en cursos desde smartphones y tabletas. 
+
+- Integraciones: se integra con una variedad de herramientas y servicios externos, como sistemas de autenticación, bibliotecas digitales, herramientas de videoconferencia y más. 
+
+Learning Tools Interoperability (LTI): facilita la integración de aplicaciones de aprendizaje externas, conocidas como "herramientas", en plataformas educativas como LMS y portales web. Estas herramientas son creadas y alojadas por proveedores externos y pueden incluir laboratorios virtuales, entre otros.
+
+LTI permite una integración tipo "plug and play", donde el LMS actúa como consumidor de herramientas y la aplicación externa como proveedor. Utilizando LTI, el LMS puede enviar datos básicos como la identificación del usuario, el contexto del curso y permisos específicos, permitiendo así que la herramienta externa se adapte al entorno del usuario dentro del LMS. Además, la herramienta puede registrar directamente en el LMS los resultados y acciones del usuario durante su uso, lo que facilita la utilización de estas herramientas por parte de los estudiantes al máximo [7].
+	
+A continuación, se mencionan algunos hallazgos de trabajos relacionados:
+
+Udacity [8], prestigiosa y reconocida plataforma de cursos virtuales a nivel mundial posee un Sistema de Chat, como asistente virtual potenciado con Inteligencia Artificial Generativa, más exactamente, con tecnología de Chat GPT. IUD usa en su defecto, modelos de Amazon Bedrock, provistos por los servicios de Amazon Web Services (AWS).
+
+[9] Presenta un asistente virtual inteligente para estudiantes que brinda soporte instantáneo y continuo a las comunidades de estudiantes, personal y docentes en Instituciones como Minnesota: Century College, Metro State University y St. Cloud State. A diferencia de IUD GPT, estos no usan Inteligencia Artificial Generativa.
+
+De igual forma en [10], se desarrolla un sistema automatizado para responder a consultas de los usuarios en nombre de un humano, para el sistema educativo. El enfoque se centra tanto en la base de datos local como en la base de datos web.
+</p>
         </div>
 
         <!-- Sección 2 -->
         <div id="detalles" class="mt-5">
             <h2>Detalles Técnicos</h2>
-            <p>Contenido de detalles técnicos...</p>
+            <p>La implementación de IUD GPT, es la propuesta de un proyecto de Investigación y desarrollo (I+D), la cual se rige por una investigación Basada en el diseño (IBD). La IBD consta de cuatro fases: Inicial, diseño, implementación y Análisis; donde las tres (3) últimas se realizan de forma iterativa, lo que permite un proceso de revisión y reformulación. En cada iteración se puede realizar una reflexión que facilita revisar el diseño adaptándolo a los problemas detectados en la práctica. 
+
+Fase Inicial: Se hace una exploración del conocimiento, caracterización de variables que entren en juego con el proyecto, investigación, cotizaciones. Para la presente fase, se llevarán a cabo de manera general las siguientes actividades: 
+	Investigar plataformas en otras Instituciones de educación superior a nivel Nacional e Internacional, para tener como referente en la futura implementación de IUD GPT. 
+	
+Fase de Diseño e implementación: Se establecen tecnologías y herramientas a usar, se definen temáticas a arquitectónicas de alto nivel y módulos: 
+	Analizar y diseñar el asistente virtual IUD GPT para la construcción de su arquitectura a alto nivel. 
+	
+	Construir la arquitectura a alto nivel de IUD GTP para definir tecnologías a usar, integración con el LMS de la Institución Universitaria y demás aspectos relevantes. Al igual que codificar los módulos necesarios de IUD GPT y pruebas funcionales del plugin en el LMS Canvas en pre-producción. 
+
+Fase de experimentación y validación: En cada implementación, en la presente, se realiza validación de los módulos construidos. El usuario final va a interactuar y probar el funcionamiento y retroalimentar, según experiencia.  De igual forma, realizar pruebas funcionales en ambniente pre-productivo en el LMS Canvas. 
+
+Fase de implantación: Se realiza la instalación del plugin resultante probado anteriormente, con apoyo del equipo de Tecnología de la institución Universitaria Digital de Antioquia, siguiendo los protocolos de seguridad y reglas internas al área.  También, realizar la implantación de un asistente virtual “IUD GPT", en los cursos del programa de Tecnología en Desarrollo de Software de la Institución Universitaria. Y finalmente, realizar pruebas funcionales en ambiente en el LMS Canvas de la Institución Universitaria.
+
+Documentación: Se irá documentando todo lo que se realice en el proyecto durante todas sus fases: 
+
+o	Adelantos y avances del proyecto. 
+o	Cotizaciones y otros presupuestos 
+o	Documentación técnica 
+
+IUD GPT es una aplicación Monolítica, Cliente - Servidor, en donde se desacoplan dos capas: Backend y FrontEnd, para tener un producto con atributos de calidad como:
+
+•	Mantenibilidad: Al estar separadas las capas, hay facilidad a la hora de codificar y realizar otros diseños nuevos sobre toda la aplicación.
+•	Escalabilidad: Se puede escalar de manera vertical u horizontal.
+•	Performance: El sistema tendrá un mejor performance en su funcionamiento. 
+
+En la capa del Backend, se tendrán todas las interacciones, comunicación y transacciones con la base de datos. Mientras que en el Frontend, la comunicación con el Backend y la interacción directa y mostrada al usuario final. Cabe mencionar que el Backend usará el Estilo de Arquitectura REST: tendremos un API Restful con las especificaciones y buenas prácticas que esta propone.
+
+
+ 
+Fig. 1. Arquitectura de Alto nivel IUD GPT.
+Fuente: elaboración propia.
+
+
+2.1. Módulo de Administración
+
+A continuación, se mencionan brevemente, los módulos más importantes de IUD GPT.
+
+2.1.1. Submódulo Gestión de Cursos
+
+Este módulo realiza la gestión de cada uno de los cursos del programa de Desarrollo de Software de la Institución Universitaria. Agregado, edición, eliminado, consultas.
+
+2.1.2. Submódulo Entrenamiento y reentrenamiento
+
+Los cursos agregados en el módulo de Gestión de cursos se pueden entrenar y reentrenar continuamente, conforme al contenido de cada curso, para garantizar una estabilidad y consistencia con las respuestas generadas por IUD GPT en el módulo de chat de los estudiantes. 
+
+Además, garantizar actualización en las respuestas a medida que se hace también con el contenido de los cursos. Se usan los servicios de Amazon Bedrock [11]. Para el refinar el funcionamiento de IUD GPT, se construye un módulo que usa técnicas de Prompt Chaining [12] e Iterative Refinement.
+
+2.2. Módulo de Estudiante y Docente
+
+2.2.1. Submódulo de Chat
+
+Este es el módulo de interacción directa con los estudiantes en donde estos realizan las consultas en lenguaje natural y reciben respuestas dependiendo del curso donde se encuentren. El usuario recibe una respuesta conforme al entrenamiento que se dé en el Módulo de Administración. 
+
+Desde la interfaz gráfica se realiza petición a la capa de Backend, que espera respuesta con ciertos parámetros de petición. En la capa de Backend, se guarda información relevante en la base de datos de IUD GPT, y al tiempo se envía petición a los servicios de Inteligencia Artificial Generativa, previamente entrenados con el Módulo Administrativo. El cual regresa una respuesta que es mostrada nuevamente la interfaz de Chat.
+
+2.2.2. Submódulo de Seguridad
+
+En este módulo, se implementa la seguridad, para que la información viaje segura a través de la red, y solo se pueda acceder a los servicios a través del LTI, instalado en el LMS del campus virtual.
+
+2.2.3. Submódulo de filtrado de palabras inadecuadas.
+
+Se encarga de filtrar palabras inadecuadas y almacenar el uso frecuente de estas por parte del usuario final, y penalizarlo en caso de que abuse de estas. Garantizando el buen uso de IUD GPT en el campus Universitario digital.
+
+2.2.4. Submódulo de Prompt 
+
+Lleva a cabo un refinamiento del entrenamiento con los cursos, para garantizar de que IUD GPT, responda de acuerdo con el contexto del curso en el cual el usuario está interactuando, lo que garantiza una mejor experiencia y exactitud de respuestas en su uso. Además, de tener un control para que los estudiantes no usen la herramienta para solucionar sus retos o actividades directamente, sino, una guía útil y versátil como apoyo a resolverlo.
+
+2.2. Módulo de Análisis de Sentimientos y opiniones.
+
+El módulo de Análisis de Sentimientos se ejecuta de manera manual para capturar la información de las respuestas de una pregunta “abierta” formulada en una prueba de percepción o encuesta que se realizará a estudiantes y docentes sobre el uso de IUD GPT, del cual se hablará en el siguiente apartado.
+
+El módulo analiza las respuestas y genera una nube de palabras y el porcentaje de sentimientos negativos contra el porcentaje de sentimientos positivos, según lo respondido por los usuarios.
+</p>
         </div>
 
         <!-- Sección 3 -->
@@ -94,7 +216,73 @@
          <!-- Sección 4 -->
         <div id="resultados" class="mt-5">
             <h2>Resultados</h2>
-            <p>Contenido de los resultados...</p>
+            <p>Se realiza la implantación de IUD GPT, haciendo la integración con el LMS Canvas de la Institución Educativa, mediante un módulo de LTI. Una vez implantado el asistente, se solicita de manera aleatoria a un total de veinte (12) estudiantes de la Universidad y cinco (5) docentes, hacer uso de la herramienta: hacer navegación e interacción directa como usuarios finales.
+
+Previamente, se diseña una encuesta con un total de cinco (5) preguntas, para evaluar aspectos relacionados con la usabilidad, interfaz gráfica de usuario y utilidad de IUD GPT en el contexto educativo de la institución.
+
+A continuación, presentamos las preguntas planteadas de la encuesta:
+
+Tabla 1: Test IUD GPT
+
+	Pregunta	Respuestas
+1	De 0 a 5, siendo 0 Muy Díficil y 5 Muy Fácil ¿Que tan fácil le parece el manejo de IUD GPT en el Campus virtual?
+	0, 1, 2, 3, 4, 5
+2	Según su rol, ¿Encuentra útil la implementación de IUD GPT en el Campus virtual de la Universidad?
+ 
+Hablando en términos de ayuda para sus cursos y atención cuando el docente/estudiante en horarios extras.	Si, No, Tal vez
+3	¿Piensa que IUD GPT, puede contribuir a la mejora del aprendizaje en la Tecnología en Desarrollo de Software, a través del Campus virtual, de la Universidad?
+	Si, No, Tal vez
+4	De 0 a 5, siendo 0 muy malas, 5 Excelente ¿Cómo consideras las respuestas de IUD GPT, con respecto a las preguntas que le formulaste en tu interacción con el chat?
+	0, 1, 2, 3, 4, 5
+5	Por último, escribe en unas cortas palabras, una opinión abierta sobre la herramienta: mejoras, uso, etc.
+	N/A
+Fuente: elaboración propia
+
+
+La pregunta número cinco (5), es una pregunta abierta. La cual es analizada por un módulo de análisis de sentimientos con el uso de procesamiento de lenguaje natural (NPL), el cual recolecta automáticamente las respuestas de los encuestados, las procesa y genera un reporte de sentimientos negativos o positivos y un top diez (10) de palabras más relevantes a cerca de la experiencia tenida usando la herramienta chat de asistencia virtual.
+
+
+3.1. Prototipo
+
+Se Integra IUD GPT mediante LTI en el LMS Canvas, con el objetivo de realizar una prueba piloto con un prototipo funcional, a través de una Interfaz gráfica de usuario de chat. En donde interactúan los usuarios finales: estudiantes y docentes para experimentar y evaluarlo.
+
+ 
+Fig. 2. Interfaz Gráfica de Usuario. Chat IUD GPT
+Fuente: elaboración propia.
+
+
+3.2. Evaluación
+
+La encuesta diseñada de cinco (5) preguntas, mencionada anteriormente, genera los siguientes resultados:
+
+ 
+Fig. 3. Respuesta de la pregunta 1.
+Fuente: elaboración propia.
+
+
+ 
+Fig. 4. Respuesta de la pregunta 2.
+Fuente: elaboración propia.
+
+  
+Fig. 5. Respuesta de la pregunta 3.
+Fuente: elaboración propia.
+
+ 
+Fig. 6. Respuesta de la pregunta 4.
+Fuente: elaboración propia.
+
+Para la pregunta número cinco (5), se obtiene el siguiente análisis de opiniones con el módulo destinado para este propósito:
+
+
+3.2.1. Resumen del análisis de sentimientos
+
+Sentimiento positivo predominante: La mayoría de las opiniones reflejan una actitud positiva hacia la herramienta, destacando su utilidad, facilidad de uso y su potencial para mejorar los procesos educativos en la universidad. Las expresiones como "muy buena herramienta", "excelente iniciativa" y "herramienta útil" indican satisfacción con la implementación.
+
+Críticas constructivas y sugerencias: Las críticas no se enfocan en el rechazo de la herramienta, sino en mejorar su diseño, funcionalidad y rendimiento. Las sugerencias se centran en hacer la herramienta más flexible, rápida y amigable visualmente.
+
+Sentimientos neutros o negativos: Estos se refieren principalmente a aspectos de diseño (colores, interfaz) y al rendimiento, como la velocidad de respuesta. También se expresan preocupaciones sobre su uso en exámenes, que los usuarios consideran un área que debe ser gestionada.
+</p>
         </div>
 
     </div>
