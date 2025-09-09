@@ -23,3 +23,46 @@
   color: #333; 
   font-weight: bold;
 }
+
+
+  .tabla-encuesta {
+    border-collapse: collapse; /* Colapsa los bordes de la celda */
+    width: 100%; /* La tabla ocupa el 100% del ancho del contenedor */
+    max-width: 800px; /* Limita el ancho máximo para evitar que sea muy ancha */
+    margin: 20px auto; /* Centra la tabla en la página */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+  }
+
+  .tabla-encuesta caption {
+    caption-side: top;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .tabla-encuesta thead th {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #000; /* Línea gruesa debajo del encabezado */
+    padding: 10px;
+  }
+
+  .tabla-encuesta tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    vertical-align: middle;
+  }
+
+  .tabla-encuesta tbody tr td:first-child {
+    text-align: center;
+    border-right: 1px solid #000;
+  }
+
+  /* Alineación específica para las celdas */
+  .tabla-encuesta tr td:nth-child(2) {
+    text-align: left;
+  }
+
+  .tabla-encuesta tr td:nth-child(3) {
+    text-align: center;
+  }
