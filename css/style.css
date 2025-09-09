@@ -25,40 +25,67 @@
 }
 
 
+ 
   .tabla-encuesta {
-    border-collapse: collapse; /* Colapsa los bordes de la celda */
-    width: 100%; /* La tabla ocupa el 100% del ancho del contenedor */
-    max-width: 800px; /* Limita el ancho máximo para evitar que sea muy ancha */
-    margin: 20px auto; /* Centra la tabla en la página */
-    font-family: Arial, sans-serif; /* Tipo de fuente */
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px; /* Un poco más ancha para un mejor flujo */
+    margin: 40px auto; /* Más espacio y centrada */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para levantar la tabla */
+    border-radius: 10px; /* Bordes redondeados para la tabla */
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen bien */
   }
 
   .tabla-encuesta caption {
     caption-side: top;
-    font-style: italic;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-style: normal; /* Cambiamos el estilo del caption */
+    font-weight: 700; /* Más negrita */
+    font-size: 1.5em; /* Tamaño más grande */
+    margin-bottom: 20px; /* Más espacio debajo del título */
+    color: #333; /* Color más oscuro */
+    text-align: center;
   }
 
   .tabla-encuesta thead th {
-    font-weight: bold;
+    background-color: #2F80ED; /* Color de fondo para el encabezado */
+    color: white; /* Texto blanco en el encabezado */
+    font-weight: 600; /* Un poco menos negrita para el encabezado */
     text-align: center;
-    border-bottom: 3px solid #000; /* Línea gruesa debajo del encabezado */
-    padding: 10px;
+    padding: 15px 10px;
+    border-bottom: none; /* Quitamos el borde grueso, la sombra lo reemplaza */
+    border-right: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil entre encabezados */
+  }
+
+  .tabla-encuesta thead th:last-child {
+    border-right: none; /* No hay borde a la derecha del último encabezado */
   }
 
   .tabla-encuesta tbody td {
-    padding: 10px;
-    border-bottom: 1px solid #000;
-    vertical-align: middle;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e0e0e0; /* Bordes más finos y sutiles */
+    vertical-align: top; /* Alineación superior para el texto de preguntas largas */
+    color: #444; /* Color de texto más suave */
+    line-height: 1.6; /* Interlineado para mejor lectura */
+  }
+
+  .tabla-encuesta tbody tr:nth-child(even) { /* Filas pares con fondo diferente */
+    background-color: #f8f9fa; /* Color gris claro */
+  }
+
+  .tabla-encuesta tbody tr:hover { /* Efecto al pasar el ratón */
+    background-color: #e2f0fd; /* Un azul claro al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición suave */
   }
 
   .tabla-encuesta tbody tr td:first-child {
     text-align: center;
-    border-right: 1px solid #000;
+    font-weight: bold;
+    color: #2F80ED; /* Color de los números de pregunta */
+    border-right: 1px solid #e0e0e0; /* Borde entre número y pregunta */
   }
 
-  /* Alineación específica para las celdas */
+  /* Alineación específica para las celdas de contenido */
   .tabla-encuesta tr td:nth-child(2) {
     text-align: left;
   }
