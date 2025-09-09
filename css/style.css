@@ -100,7 +100,7 @@
   /* Estilos generales para la sección */
   .seccion-resultados {
     max-width: 1200px; 
-    margin: 60px auto; 
+    margin: 60px auto; /* Centrado automático */
     padding: 20px;
     background-color: #f9f9f9; 
     border-radius: 12px;
@@ -116,7 +116,7 @@
     position: relative;
   }
 
-  .seccion-resultados h2::after { 
+  .seccion-resultados h2::after {
     content: '';
     display: block;
     width: 60px;
@@ -126,15 +126,15 @@
     border-radius: 2px;
   }
 
-  /* Estilos para la cuadrícula de resultados */
+  
   .grid-resultados {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    justify-items: center;
+    gap: 30px; 
+    justify-content: center; 
   }
 
-  /* Estilos para cada elemento de resultado (imagen + descripción) */
+  /* Estilos para cada elemento de resultado (imagen) */
   .item-resultado {
     background-color: #ffffff;
     border-radius: 10px;
@@ -142,61 +142,28 @@
     overflow: hidden; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     max-width: 450px; 
-    display: flex; 
+    display: flex;
     flex-direction: column;
   }
 
   .item-resultado:hover {
-    transform: translateY(-8px); 
+    transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   }
 
   /* Estilos para las imágenes dentro de la cuadrícula */
   .item-resultado img {
-    width: 100%; 
+    width: 100%;
     height: auto;
     display: block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    object-fit: cover;
+    border-radius: 10px;
   }
-
-  /* Estilos para la descripción de la imagen */
-  .descripcion-imagen {
-    padding: 15px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.95em;
-    color: #555;
-    text-align: center;
-    line-height: 1.5;
-    background-color: #f3f3f3; 
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    flex-grow: 1;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-  }
-
+  
   /* Media Queries para responsividad */
   @media (max-width: 768px) {
     .grid-resultados {
-      grid-template-columns: 1fr; 
+      grid-template-columns: 1fr;
       gap: 20px;
     }
-
-    .seccion-resultados h2 {
-      font-size: 1.8em;
-    }
   }
 
-  @media (max-width: 480px) {
-    .seccion-resultados {
-      padding: 15px;
-      margin: 30px auto;
-    }
-    .descripcion-imagen {
-      font-size: 0.9em;
-      padding: 10px 15px;
-    }
-  }
