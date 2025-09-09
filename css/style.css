@@ -1,0 +1,25 @@
+
+.imagen-con-titulo {
+  text-align: center; 
+  margin: 20px auto; 
+  width: 80%;
+}
+
+
+.imagen-con-titulo img {
+  width: 100%; 
+  max-width: 600px; 
+  height: auto;
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.imagen-con-titulo figcaption {
+  margin-top: 10px; 
+  font-family: Arial, sans-serif; 
+  font-size: 1.2em; 
+  color: #333; 
+  font-weight: bold;
+}
